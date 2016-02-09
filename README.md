@@ -3,4 +3,8 @@ measurechange
 
 I'm trying to figure out whether quantitative methods really allow us to say that literature (or for that matter music) change significantly more rapidly in some periods than in others.
 
-Right now the best notebook to look at is **changepoint.** The **permutation_test** notebook attempts to use a method that was used in Mauch et al. "The Evolution of Popular Music," but I now think that method makes some assumptions (about the independence of observations across time) that are basically not appropriate for historical timelines.
+The most recent, and most useful, notebook is probably **diagonal_permutation,** which extends methods in Mauch et al. 2015 by  changing the permutation test.
+
+A slightly earlier pass at this problem was **changepoint,** which borrows changepoint analysis from econometrics.
+
+The **permutation_test** notebook iwas my first pass at this problem and is now deprecated.
